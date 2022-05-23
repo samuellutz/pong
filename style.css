@@ -1,0 +1,23 @@
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+}
+
+.paddle {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 1vh;
+    height: 10vh;
+}
+
+.paddle.left {
+left: 1vw;
+}
+
+.paddle.right {
+right: 1vw;
+}
